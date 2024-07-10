@@ -129,7 +129,7 @@ function DesktopLogin() {
   return (
     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
       <a
-        href="https://www.resyncai.com/overview"
+        href="https://dashboard.resyncai.com"
         className="text-sm font-semibold leading-6 text-gray-900"
       >
         Sign In <span aria-hidden="true">&rarr;</span>
@@ -160,7 +160,6 @@ function MobileMenu({
         <div className="flex items-center justify-between">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Resync</span>
-            {/* <Image className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" width="8" height="8" alt="" /> */}
           </Link>
           <button
             type="button"
@@ -189,7 +188,7 @@ function MobileMenu({
             </div>
             <div className="py-6">
               <a
-                href="https://www.resyncai.com/overview"
+                href="https://dashboard.resyncai.com"
                 className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
               >
                 Sign In
@@ -243,13 +242,13 @@ function HeroContent() {
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
-              href="/overview"
+              href="https://dashboard.resyncai.com"
               className="rounded-md  bg-indigo-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Get started
             </a>
             <a href="https://docs.resyncai.com" className={buttonVariants({ variant: "ghost" })}>
-              Learn more <span aria-hidden="true">→</span>
+              View Docs <span aria-hidden="true">→</span>
             </a>
           </div>
         </div>
