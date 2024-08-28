@@ -227,7 +227,7 @@ function HeroContent() {
         </div>
         <div className="text-center">
           <h1 className="text-4xl font-bold tracking-tight text-gray-600 sm:text-6xl">
-            Turns Your Content into Answers with
+            Turn Your Content into Answers with
             <br />
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-violet-800">
               Resync
